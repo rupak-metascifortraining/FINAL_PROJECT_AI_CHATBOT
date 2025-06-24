@@ -1,4 +1,0 @@
-streamlit
-transformers
-torch
-gtts     # if you are using text-to-speech

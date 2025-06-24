@@ -12,7 +12,7 @@ It uses HuggingFace's transformers and is fine-tuned for extractive question ans
 
 # Load Pretrained QA Pipeline (Publicly available SQuAD model)
 st.info("Loading model...")
-qa_pipeline = pipeline("question-answering", model="bert-large-uncased-whole-word-masking-finetuned-squad")
+qa_pipeline = pipeline("question-answering", model="distilbert-base-uncased-distilled-squad")
 st.success("Model loaded successfully!")
 
 # Comprehensive Financial and Banking Context
